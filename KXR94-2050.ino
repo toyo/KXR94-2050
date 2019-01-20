@@ -24,7 +24,7 @@ void loop()
   int z = analogRead(5);
 
   const int count = 100;           // 100 data
-  const int continuous = 10;       // 5th (0.5 sec. in 5sec )
+  const int continuous = 10;       // 10th (1sec. in 5sec.)
   const unsigned threshold = 1500; //milligal, gal = cm/s^2
 
   static unsigned long sumx;
